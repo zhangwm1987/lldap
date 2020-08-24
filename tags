@@ -1,0 +1,254 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Add	add-modify-delete.go	/^func (self *Ldap) Add(dn string, attrs map[string][]string) (error){$/;"	f
+Append	openldap.go	/^func (self *LdapEntry) Append(a LdapAttribute) {$/;"	f
+Append	openldap.go	/^func (self *LdapSearchResult) Append(e LdapEntry) {$/;"	f
+Attributes	openldap.go	/^func (self *LdapEntry) Attributes() []LdapAttribute {$/;"	f
+Attributes	openldap.go	/^func (self *LdapSearchResult) Attributes() []string {$/;"	f
+Base	openldap.go	/^func (self *LdapSearchResult) Base() string {$/;"	f
+Berval	types.go	/^type Berval struct {$/;"	t
+Bind	openldap.go	/^func (self *Ldap) Bind(who, cred string) error {$/;"	f
+Count	openldap.go	/^func (self *LdapSearchResult) Count() int {$/;"	f
+Count	results.go	/^func (self *LdapMessage) Count() int {$/;"	f
+CountEntries	results.go	/^func (self *LdapEntry) CountEntries() int {$/;"	f
+Delete	add-modify-delete.go	/^func (self *Ldap) Delete(dn string) (error){$/;"	f
+Dn	openldap.go	/^func (self *LdapEntry) Dn() string {$/;"	f
+Entries	openldap.go	/^func (self *LdapSearchResult) Entries() []LdapEntry {$/;"	f
+Errno	utils.go	/^func (self *Ldap) Errno() int {$/;"	f
+ErrorToString	utils.go	/^func ErrorToString(err int) string {$/;"	f
+Filter	openldap.go	/^func (self *LdapSearchResult) Filter() string {$/;"	f
+FirstAttribute	results.go	/^func (self *LdapEntry) FirstAttribute() (string, error) {$/;"	f
+FirstEntry	results.go	/^func (self *LdapMessage) FirstEntry() *LdapEntry {$/;"	f
+FirstMessage	results.go	/^func (self *LdapMessage) FirstMessage() *LdapMessage {$/;"	f
+GetDn	results.go	/^func (self *LdapEntry) GetDn() string {$/;"	f
+GetOneValueByName	openldap.go	/^func (self *LdapEntry) GetOneValueByName(attrib string) (string, error) {$/;"	f
+GetOption	utils.go	/^func (self *Ldap) GetOption(opt int) (val int, err error) {$/;"	f
+GetValues	results.go	/^func (self *LdapEntry) GetValues(attr string) []string {$/;"	f
+GetValuesByName	openldap.go	/^func (self *LdapEntry) GetValuesByName(attrib string) []string {$/;"	f
+Initialize	openldap.go	/^func Initialize(url string) (*Ldap, error) {$/;"	f
+IsPrint	openldap.go	/^func (self *LdapAttribute) IsPrint() bool {$/;"	f
+IsThreadSafe	utils.go	/^func (self *Ldap) IsThreadSafe() bool {$/;"	f
+LDAPS_PORT	defines.go	/^	LDAPS_PORT = 636$/;"	c
+LDAP_ADMINLIMIT_EXCEEDED	defines.go	/^	LDAP_ADMINLIMIT_EXCEEDED            = 0x0b$/;"	c
+LDAP_AFFECTS_MULTIPLE_DSAS	defines.go	/^	LDAP_AFFECTS_MULTIPLE_DSAS = 0x47$/;"	c
+LDAP_ALIAS_DEREF_PROBLEM	defines.go	/^	LDAP_ALIAS_DEREF_PROBLEM = 0x24$/;"	c
+LDAP_ALIAS_PROBLEM	defines.go	/^	LDAP_ALIAS_PROBLEM     = 0x21$/;"	c
+LDAP_ALREADY_EXISTS	defines.go	/^	LDAP_ALREADY_EXISTS         = 0x44 \/* 68 *\/$/;"	c
+LDAP_API_VERSION	defines.go	/^	LDAP_API_VERSION = 3001$/;"	c
+LDAP_AUTH_KRBV4	defines.go	/^	LDAP_AUTH_KRBV4  = 0xff \/\/ means do both of the following$/;"	c
+LDAP_AUTH_KRBV41	defines.go	/^	LDAP_AUTH_KRBV41 = 0x81 \/\/ context specific + primitive$/;"	c
+LDAP_AUTH_KRBV42	defines.go	/^	LDAP_AUTH_KRBV42 = 0x82 \/\/ context specific + primitive$/;"	c
+LDAP_AUTH_METHOD_NOT_SUPPORTED	defines.go	/^	LDAP_AUTH_METHOD_NOT_SUPPORTED = 0x07$/;"	c
+LDAP_AUTH_NONE	defines.go	/^	LDAP_AUTH_NONE   = 0x00 \/\/ no authentication$/;"	c
+LDAP_AUTH_SASL	defines.go	/^	LDAP_AUTH_SASL   = 0xa3 \/\/ context specific + constructed$/;"	c
+LDAP_AUTH_SIMPLE	defines.go	/^	LDAP_AUTH_SIMPLE = 0x80 \/\/ context specific + primitive$/;"	c
+LDAP_AUTH_UNKNOWN	defines.go	/^	LDAP_AUTH_UNKNOWN   = 0x56$/;"	c
+LDAP_BUSY	defines.go	/^	LDAP_BUSY                 = 0x33$/;"	c
+LDAP_CLIENT_LOOP	defines.go	/^	LDAP_CLIENT_LOOP             = 0x60$/;"	c
+LDAP_COMPARE_FALSE	defines.go	/^	LDAP_COMPARE_FALSE             = 0x05$/;"	c
+LDAP_COMPARE_TRUE	defines.go	/^	LDAP_COMPARE_TRUE              = 0x06$/;"	c
+LDAP_CONFIDENTIALITY_REQUIRED	defines.go	/^	LDAP_CONFIDENTIALITY_REQUIRED       = 0x0d$/;"	c
+LDAP_CONNECT_ERROR	defines.go	/^	LDAP_CONNECT_ERROR           = 0x5b$/;"	c
+LDAP_CONSTRAINT_VIOLATION	defines.go	/^	LDAP_CONSTRAINT_VIOLATION   = 0x13$/;"	c
+LDAP_CONTROL_NOT_FOUND	defines.go	/^	LDAP_CONTROL_NOT_FOUND       = 0x5d$/;"	c
+LDAP_DECODING_ERROR	defines.go	/^	LDAP_DECODING_ERROR = 0x54$/;"	c
+LDAP_DEREF_ALWAYS	defines.go	/^	LDAP_DEREF_ALWAYS    = 3$/;"	c
+LDAP_DEREF_FINDING	defines.go	/^	LDAP_DEREF_FINDING   = 2$/;"	c
+LDAP_DEREF_NEVER	defines.go	/^	LDAP_DEREF_NEVER     = 0$/;"	c
+LDAP_DEREF_SEARCHING	defines.go	/^	LDAP_DEREF_SEARCHING = 1$/;"	c
+LDAP_ENCODING_ERROR	defines.go	/^	LDAP_ENCODING_ERROR = 0x53$/;"	c
+LDAP_FILTER_ERROR	defines.go	/^	LDAP_FILTER_ERROR   = 0x57 \/* 87 *\/$/;"	c
+LDAP_INAPPROPRIATE_AUTH	defines.go	/^	LDAP_INAPPROPRIATE_AUTH   = 0x30 \/* 48 *\/$/;"	c
+LDAP_INAPPROPRIATE_MATCHING	defines.go	/^	LDAP_INAPPROPRIATE_MATCHING = 0x12$/;"	c
+LDAP_INDEX_RANGE_ERROR	defines.go	/^	LDAP_INDEX_RANGE_ERROR    = 0x3D \/* 61 *\/$/;"	c
+LDAP_INSUFFICIENT_ACCESS	defines.go	/^	LDAP_INSUFFICIENT_ACCESS  = 0x32$/;"	c
+LDAP_INVALID_CREDENTIALS	defines.go	/^	LDAP_INVALID_CREDENTIALS  = 0x31 \/* 49 *\/$/;"	c
+LDAP_INVALID_DN_SYNTAX	defines.go	/^	LDAP_INVALID_DN_SYNTAX = 0x22$/;"	c
+LDAP_INVALID_SYNTAX	defines.go	/^	LDAP_INVALID_SYNTAX         = 0x15$/;"	c
+LDAP_IS_LEAF	defines.go	/^	LDAP_IS_LEAF             = 0x23$/;"	c
+LDAP_LOCAL_ERROR	defines.go	/^	LDAP_LOCAL_ERROR    = 0x52$/;"	c
+LDAP_LOOP_DETECT	defines.go	/^	LDAP_LOOP_DETECT          = 0x36$/;"	c
+LDAP_MORE_RESULTS_TO_RETURN	defines.go	/^	LDAP_MORE_RESULTS_TO_RETURN  = 0x5f$/;"	c
+LDAP_MSG_ALL	defines.go	/^	LDAP_MSG_ALL      = 1$/;"	c
+LDAP_MSG_ONE	defines.go	/^	LDAP_MSG_ONE      = 0$/;"	c
+LDAP_MSG_RECEIVED	defines.go	/^	LDAP_MSG_RECEIVED = 2$/;"	c
+LDAP_NAMING_VIOLATION	defines.go	/^	LDAP_NAMING_VIOLATION       = 0x40$/;"	c
+LDAP_NOT_ALLOWED_ON_NONLEAF	defines.go	/^	LDAP_NOT_ALLOWED_ON_NONLEAF = 0x42$/;"	c
+LDAP_NOT_ALLOWED_ON_RDN	defines.go	/^	LDAP_NOT_ALLOWED_ON_RDN     = 0x43$/;"	c
+LDAP_NOT_SUPPORTED	defines.go	/^	LDAP_NOT_SUPPORTED           = 0x5c$/;"	c
+LDAP_NO_LIMIT	defines.go	/^	LDAP_NO_LIMIT = 0$/;"	c
+LDAP_NO_MEMORY	defines.go	/^	LDAP_NO_MEMORY      = 0x5a$/;"	c
+LDAP_NO_OBJECT_CLASS_MODS	defines.go	/^	LDAP_NO_OBJECT_CLASS_MODS   = 0x45$/;"	c
+LDAP_NO_RESULTS_RETURNED	defines.go	/^	LDAP_NO_RESULTS_RETURNED     = 0x5e$/;"	c
+LDAP_NO_SUCH_ATTRIBUTE	defines.go	/^	LDAP_NO_SUCH_ATTRIBUTE      = 0x10$/;"	c
+LDAP_NO_SUCH_OBJECT	defines.go	/^	LDAP_NO_SUCH_OBJECT    = 0x20 \/* 32 *\/$/;"	c
+LDAP_OBJECT_CLASS_VIOLATION	defines.go	/^	LDAP_OBJECT_CLASS_VIOLATION = 0x41$/;"	c
+LDAP_OPERATIONS_ERROR	defines.go	/^	LDAP_OPERATIONS_ERROR          = 0x01$/;"	c
+LDAP_OPT_API_EXTENSION_BASE	defines.go	/^const LDAP_OPT_API_EXTENSION_BASE = 0x4000 \/\/ API extensions$/;"	c
+LDAP_OPT_API_FEATURE_INFO	defines.go	/^	LDAP_OPT_API_FEATURE_INFO = 0x0015$/;"	c
+LDAP_OPT_API_INFO	defines.go	/^	LDAP_OPT_API_INFO  = 0x0000$/;"	c
+LDAP_OPT_CLIENT_CONTROLS	defines.go	/^	LDAP_OPT_CLIENT_CONTROLS  = 0x0013$/;"	c
+LDAP_OPT_CONNECT_ASYNC	defines.go	/^	LDAP_OPT_CONNECT_ASYNC   = 0x5010 \/\/ create connections asynchronously$/;"	c
+LDAP_OPT_CONNECT_CB	defines.go	/^	LDAP_OPT_CONNECT_CB      = 0x5011 \/\/ connection callbacks$/;"	c
+LDAP_OPT_DEBUG_LEVEL	defines.go	/^	LDAP_OPT_DEBUG_LEVEL     = 0x5001 \/\/ debug level$/;"	c
+LDAP_OPT_DEFBASE	defines.go	/^	LDAP_OPT_DEFBASE         = 0x5009 \/\/ searchbase$/;"	c
+LDAP_OPT_DEREF	defines.go	/^	LDAP_OPT_DEREF     = 0x0002$/;"	c
+LDAP_OPT_DESC	defines.go	/^	LDAP_OPT_DESC      = 0x0001 \/\/ historic$/;"	c
+LDAP_OPT_DIAGNOSTIC_MESSAGE	defines.go	/^	LDAP_OPT_DIAGNOSTIC_MESSAGE = 0x0032$/;"	c
+LDAP_OPT_ENCRYPT	defines.go	/^	LDAP_OPT_ENCRYPT     = 0x0096$/;"	c
+LDAP_OPT_ERROR	defines.go	/^	LDAP_OPT_ERROR   = -1$/;"	c
+LDAP_OPT_ERROR_NUMBER	defines.go	/^	LDAP_OPT_ERROR_NUMBER       = LDAP_OPT_RESULT_CODE$/;"	c
+LDAP_OPT_ERROR_STRING	defines.go	/^	LDAP_OPT_ERROR_STRING       = LDAP_OPT_DIAGNOSTIC_MESSAGE$/;"	c
+LDAP_OPT_HOST_NAME	defines.go	/^	LDAP_OPT_HOST_NAME          = 0x0030$/;"	c
+LDAP_OPT_MATCHED_DN	defines.go	/^	LDAP_OPT_MATCHED_DN         = 0x0033$/;"	c
+LDAP_OPT_NETWORK_TIMEOUT	defines.go	/^	LDAP_OPT_NETWORK_TIMEOUT = 0x5005 \/\/ socket level timeout$/;"	c
+LDAP_OPT_PROTOCOL_VERSION	defines.go	/^	LDAP_OPT_PROTOCOL_VERSION = 0x0011$/;"	c
+LDAP_OPT_REFERRALS	defines.go	/^	LDAP_OPT_REFERRALS = 0x0008$/;"	c
+LDAP_OPT_REFERRAL_URLS	defines.go	/^	LDAP_OPT_REFERRAL_URLS   = 0x5007 \/\/ Referral URLs$/;"	c
+LDAP_OPT_REFHOPLIMIT	defines.go	/^	LDAP_OPT_REFHOPLIMIT     = 0x5003 \/\/ ref hop limit$/;"	c
+LDAP_OPT_RESTART	defines.go	/^	LDAP_OPT_RESTART   = 0x0009$/;"	c
+LDAP_OPT_RESULT_CODE	defines.go	/^	LDAP_OPT_RESULT_CODE        = 0x0031$/;"	c
+LDAP_OPT_SASL_METHOD	defines.go	/^	LDAP_OPT_SASL_METHOD = 0x0097$/;"	c
+LDAP_OPT_SECURITY_CONTEXT	defines.go	/^	LDAP_OPT_SECURITY_CONTEXT = 0x0099$/;"	c
+LDAP_OPT_SERVER_CONTROLS	defines.go	/^	LDAP_OPT_SERVER_CONTROLS  = 0x0012$/;"	c
+LDAP_OPT_SESSION_REFCNT	defines.go	/^	LDAP_OPT_SESSION_REFCNT  = 0x5012 \/\/ session reference count$/;"	c
+LDAP_OPT_SIGN	defines.go	/^	LDAP_OPT_SIGN        = 0x0095$/;"	c
+LDAP_OPT_SIZELIMIT	defines.go	/^	LDAP_OPT_SIZELIMIT = 0x0003$/;"	c
+LDAP_OPT_SOCKBUF	defines.go	/^	LDAP_OPT_SOCKBUF         = 0x5008 \/\/ sockbuf$/;"	c
+LDAP_OPT_SSPI_FLAGS	defines.go	/^	LDAP_OPT_SSPI_FLAGS = 0x0092$/;"	c
+LDAP_OPT_SUCCESS	defines.go	/^	LDAP_OPT_SUCCESS = 0$/;"	c
+LDAP_OPT_TIMELIMIT	defines.go	/^	LDAP_OPT_TIMELIMIT = 0x0004$/;"	c
+LDAP_OPT_TIMEOUT	defines.go	/^	LDAP_OPT_TIMEOUT         = 0x5002 \/\/ default timeout$/;"	c
+LDAP_OPT_URI	defines.go	/^	LDAP_OPT_URI             = 0x5006$/;"	c
+LDAP_OPT_X_GSSAPI_ALLOW_REMOTE_PRINCIPAL	defines.go	/^	LDAP_OPT_X_GSSAPI_ALLOW_REMOTE_PRINCIPAL = 0x6201$/;"	c
+LDAP_OPT_X_GSSAPI_DO_NOT_FREE_CONTEXT	defines.go	/^	LDAP_OPT_X_GSSAPI_DO_NOT_FREE_CONTEXT    = 0x6200$/;"	c
+LDAP_OPT_X_KEEPALIVE_IDLE	defines.go	/^	LDAP_OPT_X_KEEPALIVE_IDLE     = 0x6300$/;"	c
+LDAP_OPT_X_KEEPALIVE_INTERVAL	defines.go	/^	LDAP_OPT_X_KEEPALIVE_INTERVAL = 0x6302$/;"	c
+LDAP_OPT_X_KEEPALIVE_PROBES	defines.go	/^	LDAP_OPT_X_KEEPALIVE_PROBES   = 0x6301$/;"	c
+LDAP_OPT_X_SASL_AUTHCID	defines.go	/^	LDAP_OPT_X_SASL_AUTHCID      = 0x6102$/;"	c
+LDAP_OPT_X_SASL_AUTHZID	defines.go	/^	LDAP_OPT_X_SASL_AUTHZID      = 0x6103$/;"	c
+LDAP_OPT_X_SASL_GSS_CREDS	defines.go	/^	LDAP_OPT_X_SASL_GSS_CREDS    = 0x610d$/;"	c
+LDAP_OPT_X_SASL_MAXBUFSIZE	defines.go	/^	LDAP_OPT_X_SASL_MAXBUFSIZE   = 0x6109$/;"	c
+LDAP_OPT_X_SASL_MECH	defines.go	/^	LDAP_OPT_X_SASL_MECH         = 0x6100$/;"	c
+LDAP_OPT_X_SASL_MECHLIST	defines.go	/^	LDAP_OPT_X_SASL_MECHLIST     = 0x610a \/\/ read-only$/;"	c
+LDAP_OPT_X_SASL_NOCANON	defines.go	/^	LDAP_OPT_X_SASL_NOCANON      = 0x610b$/;"	c
+LDAP_OPT_X_SASL_REALM	defines.go	/^	LDAP_OPT_X_SASL_REALM        = 0x6101$/;"	c
+LDAP_OPT_X_SASL_SECPROPS	defines.go	/^	LDAP_OPT_X_SASL_SECPROPS     = 0x6106 \/\/ write-only$/;"	c
+LDAP_OPT_X_SASL_SSF	defines.go	/^	LDAP_OPT_X_SASL_SSF          = 0x6104 \/\/ read-only$/;"	c
+LDAP_OPT_X_SASL_SSF_EXTERNAL	defines.go	/^	LDAP_OPT_X_SASL_SSF_EXTERNAL = 0x6105 \/\/ write-only$/;"	c
+LDAP_OPT_X_SASL_SSF_MAX	defines.go	/^	LDAP_OPT_X_SASL_SSF_MAX      = 0x6108$/;"	c
+LDAP_OPT_X_SASL_SSF_MIN	defines.go	/^	LDAP_OPT_X_SASL_SSF_MIN      = 0x6107$/;"	c
+LDAP_OPT_X_SASL_USERNAME	defines.go	/^	LDAP_OPT_X_SASL_USERNAME     = 0x610c \/\/ read-only$/;"	c
+LDAP_OPT_X_TLS	defines.go	/^	LDAP_OPT_X_TLS              = 0x6000$/;"	c
+LDAP_OPT_X_TLS_ALLOW	defines.go	/^	LDAP_OPT_X_TLS_ALLOW  = 3$/;"	c
+LDAP_OPT_X_TLS_CACERTDIR	defines.go	/^	LDAP_OPT_X_TLS_CACERTDIR    = 0x6003$/;"	c
+LDAP_OPT_X_TLS_CACERTFILE	defines.go	/^	LDAP_OPT_X_TLS_CACERTFILE   = 0x6002$/;"	c
+LDAP_OPT_X_TLS_CERTFILE	defines.go	/^	LDAP_OPT_X_TLS_CERTFILE     = 0x6004$/;"	c
+LDAP_OPT_X_TLS_CIPHER_SUITE	defines.go	/^	LDAP_OPT_X_TLS_CIPHER_SUITE = 0x6008$/;"	c
+LDAP_OPT_X_TLS_CONNECT_ARG	defines.go	/^	LDAP_OPT_X_TLS_CONNECT_ARG  = 0x600d$/;"	c
+LDAP_OPT_X_TLS_CONNECT_CB	defines.go	/^	LDAP_OPT_X_TLS_CONNECT_CB   = 0x600c$/;"	c
+LDAP_OPT_X_TLS_CRLCHECK	defines.go	/^	LDAP_OPT_X_TLS_CRLCHECK     = 0x600b$/;"	c
+LDAP_OPT_X_TLS_CRLFILE	defines.go	/^	LDAP_OPT_X_TLS_CRLFILE      = 0x6010 \/\/ GNUtls only$/;"	c
+LDAP_OPT_X_TLS_CRL_ALL	defines.go	/^	LDAP_OPT_X_TLS_CRL_ALL  = 2$/;"	c
+LDAP_OPT_X_TLS_CRL_NONE	defines.go	/^	LDAP_OPT_X_TLS_CRL_NONE = 0$/;"	c
+LDAP_OPT_X_TLS_CRL_PEER	defines.go	/^	LDAP_OPT_X_TLS_CRL_PEER = 1$/;"	c
+LDAP_OPT_X_TLS_CTX	defines.go	/^	LDAP_OPT_X_TLS_CTX          = 0x6001 \/\/ OpenSSL CTX*$/;"	c
+LDAP_OPT_X_TLS_DEMAND	defines.go	/^	LDAP_OPT_X_TLS_DEMAND = 2$/;"	c
+LDAP_OPT_X_TLS_DHFILE	defines.go	/^	LDAP_OPT_X_TLS_DHFILE       = 0x600e$/;"	c
+LDAP_OPT_X_TLS_HARD	defines.go	/^	LDAP_OPT_X_TLS_HARD   = 1$/;"	c
+LDAP_OPT_X_TLS_KEYFILE	defines.go	/^	LDAP_OPT_X_TLS_KEYFILE      = 0x6005$/;"	c
+LDAP_OPT_X_TLS_NEVER	defines.go	/^	LDAP_OPT_X_TLS_NEVER  = 0$/;"	c
+LDAP_OPT_X_TLS_NEWCTX	defines.go	/^	LDAP_OPT_X_TLS_NEWCTX       = 0x600f$/;"	c
+LDAP_OPT_X_TLS_PACKAGE	defines.go	/^	LDAP_OPT_X_TLS_PACKAGE      = 0x6011$/;"	c
+LDAP_OPT_X_TLS_PROTOCOL_MIN	defines.go	/^	LDAP_OPT_X_TLS_PROTOCOL_MIN = 0x6007$/;"	c
+LDAP_OPT_X_TLS_RANDOM_FILE	defines.go	/^	LDAP_OPT_X_TLS_RANDOM_FILE  = 0x6009$/;"	c
+LDAP_OPT_X_TLS_REQUIRE_CERT	defines.go	/^	LDAP_OPT_X_TLS_REQUIRE_CERT = 0x6006$/;"	c
+LDAP_OPT_X_TLS_SSL_CTX	defines.go	/^	LDAP_OPT_X_TLS_SSL_CTX      = 0x600a \/\/ OpenSSL SSL*$/;"	c
+LDAP_OPT_X_TLS_TRY	defines.go	/^	LDAP_OPT_X_TLS_TRY    = 4$/;"	c
+LDAP_OTHER	defines.go	/^	LDAP_OTHER                 = 0x50$/;"	c
+LDAP_PARAM_ERROR	defines.go	/^	LDAP_PARAM_ERROR    = 0x59$/;"	c
+LDAP_PARTIAL_RESULTS	defines.go	/^	LDAP_PARTIAL_RESULTS = 0x09$/;"	c
+LDAP_PORT	defines.go	/^	LDAP_PORT  = 389$/;"	c
+LDAP_PROTOCOL_ERROR	defines.go	/^	LDAP_PROTOCOL_ERROR            = 0x02$/;"	c
+LDAP_REFERRAL	defines.go	/^	LDAP_REFERRAL                       = 0x0a$/;"	c
+LDAP_REFERRAL_LIMIT_EXCEEDED	defines.go	/^	LDAP_REFERRAL_LIMIT_EXCEEDED = 0x61$/;"	c
+LDAP_RESULTS_TOO_LARGE	defines.go	/^	LDAP_RESULTS_TOO_LARGE      = 0x46$/;"	c
+LDAP_RES_ANY	defines.go	/^	LDAP_RES_ANY         = -1$/;"	c
+LDAP_RES_UNSOLICITED	defines.go	/^	LDAP_RES_UNSOLICITED = 0$/;"	c
+LDAP_SASL_BIND_INPROGRESS	defines.go	/^	LDAP_SASL_BIND_INPROGRESS           = 0x0e$/;"	c
+LDAP_SCOPE_BASE	defines.go	/^	LDAP_SCOPE_BASE        = 0x0000$/;"	c
+LDAP_SCOPE_BASEOBJECT	defines.go	/^	LDAP_SCOPE_BASEOBJECT = LDAP_SCOPE_BASE$/;"	c
+LDAP_SCOPE_CHILDREN	defines.go	/^	LDAP_SCOPE_CHILDREN   = LDAP_SCOPE_SUBORDINATE$/;"	c
+LDAP_SCOPE_DEFAULT	defines.go	/^	LDAP_SCOPE_DEFAULT     = -1     \/\/ OpenLDAP extension$/;"	c
+LDAP_SCOPE_ONE	defines.go	/^	LDAP_SCOPE_ONE        = LDAP_SCOPE_ONELEVEL$/;"	c
+LDAP_SCOPE_ONELEVEL	defines.go	/^	LDAP_SCOPE_ONELEVEL    = 0x0001$/;"	c
+LDAP_SCOPE_SUB	defines.go	/^	LDAP_SCOPE_SUB        = LDAP_SCOPE_SUBTREE$/;"	c
+LDAP_SCOPE_SUBORDINATE	defines.go	/^	LDAP_SCOPE_SUBORDINATE = 0x0003 \/\/ OpenLDAP extension$/;"	c
+LDAP_SCOPE_SUBTREE	defines.go	/^	LDAP_SCOPE_SUBTREE     = 0x0002$/;"	c
+LDAP_SERVER_DOWN	defines.go	/^	LDAP_SERVER_DOWN    = 0x51$/;"	c
+LDAP_SIZELIMIT_EXCEEDED	defines.go	/^	LDAP_SIZELIMIT_EXCEEDED        = 0x04$/;"	c
+LDAP_SORT_CONTROL_MISSING	defines.go	/^	LDAP_SORT_CONTROL_MISSING = 0x3C \/* 60 *\/$/;"	c
+LDAP_STRONG_AUTH_REQUIRED	defines.go	/^	LDAP_STRONG_AUTH_REQUIRED      = 0x08$/;"	c
+LDAP_SUCCESS	defines.go	/^	LDAP_SUCCESS                   = 0x00$/;"	c
+LDAP_TIMELIMIT_EXCEEDED	defines.go	/^	LDAP_TIMELIMIT_EXCEEDED        = 0x03$/;"	c
+LDAP_TIMEOUT	defines.go	/^	LDAP_TIMEOUT        = 0x55$/;"	c
+LDAP_TYPE_OR_VALUE_EXISTS	defines.go	/^	LDAP_TYPE_OR_VALUE_EXISTS   = 0x14$/;"	c
+LDAP_UNAVAILABLE	defines.go	/^	LDAP_UNAVAILABLE          = 0x34$/;"	c
+LDAP_UNAVAILABLE_CRITICAL_EXTENSION	defines.go	/^	LDAP_UNAVAILABLE_CRITICAL_EXTENSION = 0x0c$/;"	c
+LDAP_UNDEFINED_TYPE	defines.go	/^	LDAP_UNDEFINED_TYPE         = 0x11$/;"	c
+LDAP_UNWILLING_TO_PERFORM	defines.go	/^	LDAP_UNWILLING_TO_PERFORM = 0x35$/;"	c
+LDAP_USER_CANCELLED	defines.go	/^	LDAP_USER_CANCELLED = 0x58$/;"	c
+LDAP_VENDOR_NAME	defines.go	/^	LDAP_VENDOR_NAME = "OpenLDAP"$/;"	c
+LDAP_VERSION	defines.go	/^	LDAP_VERSION     = LDAP_VERSION2$/;"	c
+LDAP_VERSION1	defines.go	/^	LDAP_VERSION1 = 1$/;"	c
+LDAP_VERSION2	defines.go	/^	LDAP_VERSION2 = 2$/;"	c
+LDAP_VERSION3	defines.go	/^	LDAP_VERSION3 = 3$/;"	c
+LDAP_VERSION_MAX	defines.go	/^	LDAP_VERSION_MAX = LDAP_VERSION3$/;"	c
+LDAP_VERSION_MIN	defines.go	/^	LDAP_VERSION_MIN = LDAP_VERSION2$/;"	c
+Ldap	types.go	/^type Ldap struct {$/;"	t
+LdapAttribute	types.go	/^type LdapAttribute struct {$/;"	t
+LdapAttributeNew	openldap.go	/^func LdapAttributeNew(name string, values []string) *LdapAttribute {$/;"	f
+LdapControl	types.go	/^type LdapControl struct {$/;"	t
+LdapEntry	types.go	/^type LdapEntry struct {$/;"	t
+LdapMessage	types.go	/^type LdapMessage struct {$/;"	t
+LdapSearchRequest	types.go	/^type LdapSearchRequest struct {$/;"	t
+LdapSearchResult	types.go	/^type LdapSearchResult struct {$/;"	t
+Modify	add-modify-delete.go	/^func (self *Ldap) Modify(dn string, attrs map[string][]string) (error){$/;"	f
+ModifyAdd	add-modify-delete.go	/^func (self *Ldap) ModifyAdd(dn string, attrs map[string][]string) (error){$/;"	f
+ModifyDel	add-modify-delete.go	/^func (self *Ldap) ModifyDel(dn string, attrs map[string][]string) (error){$/;"	f
+MsgFree	results.go	/^func (self *LdapMessage) MsgFree() int{$/;"	f
+Name	openldap.go	/^func (self *LdapAttribute) Name() string {$/;"	f
+NextAttribute	results.go	/^func (self *LdapEntry) NextAttribute() (string, error) {$/;"	f
+NextEntry	results.go	/^func (self *LdapEntry) NextEntry() *LdapEntry {$/;"	f
+NextMessage	results.go	/^func (self *LdapMessage) NextMessage() *LdapMessage {$/;"	f
+OPENLDAP_API_BINDING_VERSION	defines.go	/^	OPENLDAP_API_BINDING_VERSION = "0.2"$/;"	c
+Rename	add-modify-delete.go	/^func (self *Ldap) Rename(dn string, newrdn string, newSuperior string, deleteOld bool) (error){$/;"	f
+Result	results.go	/^func (self *Ldap) Result() (*LdapMessage, error) {$/;"	f
+Scope	openldap.go	/^func (self *LdapSearchResult) Scope() int {$/;"	f
+SearchExt	openldap.go	/^func (self *Ldap) SearchExt(searchReq *LdapSearchRequest) (int, error) {$/;"	f
+SearchExtSync	openldap.go	/^func (self *Ldap) SearchExtSync(searchReq LdapSearchRequest, msgID *int) (*LdapMessage, error) {$/;"	f
+SetOption	utils.go	/^func (self *Ldap) SetOption(opt int, val int) error {$/;"	f
+StartTLS	openldap.go	/^func (self *Ldap) StartTLS() error {$/;"	f
+String	openldap.go	/^func (self *LdapAttribute) String() string {$/;"	f
+String	openldap.go	/^func (self *LdapEntry) String() string {$/;"	f
+String	openldap.go	/^func (self *LdapSearchResult) String() string {$/;"	f
+ToText	openldap.go	/^func (self *LdapAttribute) ToText() string {$/;"	f
+ToText	openldap.go	/^func (self *LdapEntry) ToText() string {$/;"	f
+ToText	openldap.go	/^func (self *LdapSearchResult) ToText() string {$/;"	f
+Values	openldap.go	/^func (self *LdapAttribute) Values() []string {$/;"	f
+_isPrint	openldap.go	/^func _isPrint(str string) bool {$/;"	f
+cstrings_array	results.go	/^func cstrings_array(x **C.char) []string {$/;"	f
+doModify	add-modify-delete.go	/^func (self *Ldap) doModify(dn string, attrs map[string][]string, changeType int, full_add bool) (int){$/;"	f
+main	example/test_main.go	/^func main() {$/;"	f
+main	example/test_main.go	/^package main$/;"	p
+openldap	add-modify-delete.go	/^package openldap$/;"	p
+openldap	defines.go	/^package openldap$/;"	p
+openldap	openldap.go	/^package openldap$/;"	p
+openldap	results.go	/^package openldap$/;"	p
+openldap	types.go	/^package openldap$/;"	p
+openldap	utils.go	/^package openldap$/;"	p
+sptr	results.go	/^func sptr(p uintptr) *C.char {$/;"	f
